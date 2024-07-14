@@ -15,6 +15,7 @@ export const Carrito = () => {
         <h1>Articulos del carrito</h1>
       </div>
       <div className='carrito'>
+        
         {Productos.map((product)=>{
           if(cartItems[product.id]!==0){
             return <Itemcarrito data={product}/>;

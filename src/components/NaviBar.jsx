@@ -8,8 +8,10 @@ export const NaviBar = () => {
   return (
     <div className='navbar'>
       <div className='navbar-l'>
-      <Link to="/lista" className='navbar-existencia'>Existencias</Link>
       <Link to="/">Comprar</Link>
+      <Link to="/lista" className='navbar-existencia'>Existencias</Link>
+      
+      <Link to="/resumen">Dashboard</Link>
       </div>
         <div className='links'>
              

@@ -6,7 +6,7 @@ import "./tienda.css";
 export const Tienda = () => {
 
   const [search,setSearch]=useState('');
-console.log(search);
+
   return (
     <div className='tienda'>
         <div className='tienda-titulo'>
