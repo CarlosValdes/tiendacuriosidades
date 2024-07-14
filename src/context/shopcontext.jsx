@@ -25,6 +25,14 @@ export const ShopContextProvider = (props) => {
     return totalAmount;
   };
 
+  const getTotalProductAmount = (itemId) => {
+    let totalAmount = 0;
+    
+        let itemInfo = Productos.find((product) => product.id === itemId);
+        totalAmount += cartItems[itemId] * itemInfo.price;
+    return totalAmount;
+  };
+
   const addToCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
   };
@@ -48,6 +56,7 @@ export const ShopContextProvider = (props) => {
     removeFromCart,
     getTotalCartAmount,
     checkout,
+    getTotalProductAmount,
   };
 
   return (
