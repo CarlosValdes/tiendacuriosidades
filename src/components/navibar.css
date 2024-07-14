@@ -29,6 +29,22 @@
     font-size:25px;
 
 }
+.links .icono{
+
+    font-size:50px;
+
+}
+.links .badge{
+    position: relative;
+    top: -30px;
+    right: 20px;
+    padding: 4px 4px;
+    border-radius: 50%;
+    background: #ff410d;
+    color: white;
+    font-size: 20px;
+
+}
 .links .navbar-existencia{
     justify-content: flex;
     align-items:self-end;
