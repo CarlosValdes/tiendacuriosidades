@@ -9,9 +9,10 @@ export const NaviBar = () => {
     <div className='navbar'>
       <div className='navbar-l'>
       <Link to="/lista" className='navbar-existencia'>Existencias</Link>
+      <Link to="/">Comprar</Link>
       </div>
         <div className='links'>
-             <Link to="/">Comprar</Link>
+             
              <Link to ="/cart"><ShoppingCart className='icono'/></Link>
              
         </div>
