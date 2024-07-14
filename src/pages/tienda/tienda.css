@@ -6,7 +6,7 @@
   }
   .tienda-productos {
     width: 100%;
-    height: auto;
+    height: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
@@ -18,14 +18,15 @@
     height: 350px;
     margin: 100px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
   }
   
   .producto img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
   
   .producto .producto-descripcion {

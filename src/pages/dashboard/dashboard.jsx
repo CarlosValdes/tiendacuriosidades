@@ -11,7 +11,10 @@ export const Dashboard = () => {
             <h2>Ventas del Mes</h2>
             <span class="material-icons-outlined"><CurrencyCircleDollar/></span>
           </div>
-          <h1>$68,490.99</h1>
+          <div className="card-value">
+          <h1>$ 368,490.99</h1>  
+          </div>
+          
         </div>
 
         <div class="card">
@@ -19,7 +22,10 @@ export const Dashboard = () => {
             <h2>Clientes</h2>
             <span class="material-icons-outlined"><UsersFour/></span>
           </div>
+          <div className="card-value">
           <h1>278</h1>
+          </div>
+          
         </div>
 
         <div class="card">
@@ -27,7 +33,10 @@ export const Dashboard = () => {
             <h2>Productos Vendidos</h2>
             <span class="material-icons-outlined"><Package/></span>
           </div>
-          <h1>2,879</h1>
+          <div className="card-value">
+          <h1>879</h1>  
+          </div>
+          
         </div>
 
         <div class="card">
@@ -35,7 +44,10 @@ export const Dashboard = () => {
             <h2>Pedidos Realizados</h2>
             <span class="material-icons-outlined"><CalendarCheck/></span>
           </div>
+          <div className="card-value">
           <h1>480</h1>
+          </div>
+          
         </div>
 
 
