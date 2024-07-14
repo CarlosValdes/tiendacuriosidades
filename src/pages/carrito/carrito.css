@@ -20,7 +20,8 @@
     width: 200px;
   }
   
-  .itemcarrito .description {
+   .descripcion {
+    margin-left: 50px;
     width: 100%;
     font-size: 30px;
   }
@@ -31,7 +32,7 @@
     font-weight: bolder;
   }
   
-  .agastar button {
+  .total button {
     width: 150px;
     height: 50px;
     background-color: rgb(19, 19, 19);
@@ -40,6 +41,9 @@
     border-radius: 8px;
     margin: 10px;
     cursor: pointer;
+  }
+  .total p{
+    font-size: 30px;
   }
   .subtotal {
   font-size: 25px;
