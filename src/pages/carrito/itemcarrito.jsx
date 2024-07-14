@@ -16,7 +16,7 @@ export const Itemcarrito = (props) => {
             <button onClick={()=>addToCart(id)}> + </button>
         </div>
         <div className='subtotal'>
-        <p>Total: ${getTotalProductAmount(id)}</p>
+        <p>Subtotal: ${getTotalProductAmount(id)}</p>
         </div>
        </div>
     </div>

@@ -23,7 +23,7 @@ export const Carrito = () => {
       </div>
       {totalamnt>0?
       <div className="agastar">
-        <p>Subtotal: $ {totalamnt}</p>
+        <p>Tototal: $ {totalamnt}</p>
         <button onClick={()=>navigate("/")}>Continuar comprando</button>
         <button onClick={()=>checkout()}>Comprar Ahora</button>
       </div>

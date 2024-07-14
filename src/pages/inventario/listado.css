@@ -1,0 +1,49 @@
+.listado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prinv-alt{
+
+    width: 700px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  
+    align-items: center;
+    border-radius: 25px;
+    margin: 2px;
+    
+    .prinv-alt-hdr{
+        font-size: 20px;
+    }
+}
+
+.prinv{
+    width: 700px;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(7, 71, 218, 0.6);
+    border-radius: 25px;
+    margin: 10px;
+
+    .prinv-hdr{
+        
+    }
+
+
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        
+    }
+}
