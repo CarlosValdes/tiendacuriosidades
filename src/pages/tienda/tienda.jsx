@@ -12,10 +12,7 @@ console.log(search);
         <div className='tienda-titulo'>
             <h1>Tienda De Curiosidades</h1>
             <div className="tienda-buscador">
-
-              
-              
-            <input onChange={(e)=>setSearch(e.target.value)} placeholder='Buscar Producto'></input>
+              <input onChange={(e)=>setSearch(e.target.value)} placeholder='Buscar Producto'></input>
             </div>
             
         </div>
